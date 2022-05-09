@@ -2,25 +2,35 @@ package es.bullseye;
 
 public class Arma {
 
-	private String nombreString;
+	private String nombre;
 	private int peso;
-	public String getNombreString() {
-		return nombreString;
+
+	// GETTERS Y SETTERS
+	public String getNombre() {
+		return nombre;
 	}
+
 	public void setNombreString(String nombreString) {
-		this.nombreString = nombreString;
+		this.nombre = nombreString;
 	}
+
 	public int getPeso() {
 		return peso;
 	}
+
 	public void setPeso(int peso) {
 		this.peso = peso;
 	}
-	public Arma(String nombreString, int peso) {
+
+	// CONSTRUCTORES
+	public Arma() {
 		super();
-		this.nombreString = nombreString;
+	}
+
+	public Arma(String nombre, int peso) {
+		super();
+		this.nombre = nombre;
 		this.peso = peso;
 	}
-	
-	
+
 }
