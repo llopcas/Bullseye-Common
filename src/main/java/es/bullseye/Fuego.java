@@ -8,18 +8,22 @@ public class Fuego extends Arma implements FuegoInterfaz {
 	private String nombre;
 
 	// GETTERS Y SETTERS
+	@Override
 	public int getCargador() {
 		return cargador;
 	}
 
+	@Override
 	public void setCargador(int cargador) {
 		this.cargador = cargador;
 	}
 
+	@Override
 	public String getSistemaAccion() {
 		return sistemaAccion;
 	}
 
+	@Override
 	public void setSistemaAccion(String sistemaAccion) {
 		this.sistemaAccion = sistemaAccion;
 	}
@@ -36,14 +40,12 @@ public class Fuego extends Arma implements FuegoInterfaz {
 
 	@Override
 	public String getNombre() {
-
-		return super.getNombre();
+		return nombre;
 	}
 
 	@Override
 	public void setNombre(String nombre) {
-		this.nombre= nombre;
-		
+		this.nombre = nombre;
 	}
 
 	// CONSTRUCTORES

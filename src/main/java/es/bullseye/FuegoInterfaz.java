@@ -2,12 +2,21 @@ package es.bullseye;
 
 public interface FuegoInterfaz {
 
-	public float getCalibreEnMilimetros();
+	// GETTERS Y SETTERS
+	public int getCargador();
 
-	public void setCalibreEnMilimetros(float calibreEnMilimetros);
-	
-	public String getNombre();
-	
-	public void setNombre(String nombre);
+	public	void setCargador(int cargador);
+
+	public	String getSistemaAccion();
+
+	public	void setSistemaAccion(String sistemaAccion);
+
+	public	float getCalibreEnMilimetros();
+
+	public	void setCalibreEnMilimetros(float calibreEnMilimetros);
+
+	public	String getNombre();
+
+	public	void setNombre(String nombre);
 
 }
