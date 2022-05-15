@@ -20,7 +20,7 @@ public class Deposito {
 		
 	}
 
-	public Deposito(int codigoDeposito, Collection<Arma> armas) {
+	public Deposito(int codigoDeposito) {
 		super();
 		this.codigoDeposito = codigoDeposito;
 
