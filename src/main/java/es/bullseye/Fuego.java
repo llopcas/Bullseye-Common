@@ -41,9 +41,9 @@ public class Fuego extends Arma implements FuegoInterfaz {
 	}
 
 	@Override
-	public void setNombreString(String nombreString) {
-
-		super.setNombreString(nombreString);
+	public void setNombre(String nombre) {
+		this.nombre= nombre;
+		
 	}
 
 	// CONSTRUCTORES
