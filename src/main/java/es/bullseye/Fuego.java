@@ -5,6 +5,7 @@ public class Fuego extends Arma implements FuegoInterfaz {
 	private int cargador;
 	private String sistemaAccion;
 	private float calibreEnMilimetros;
+	private String nombre;
 
 	// GETTERS Y SETTERS
 	public int getCargador() {
@@ -33,13 +34,26 @@ public class Fuego extends Arma implements FuegoInterfaz {
 		this.calibreEnMilimetros = calibreEnMilimetros;
 	}
 
+	@Override
+	public String getNombre() {
+
+		return super.getNombre();
+	}
+
+	@Override
+	public void setNombreString(String nombreString) {
+
+		super.setNombreString(nombreString);
+	}
+
 	// CONSTRUCTORES
 	public Fuego() {
 		super();
 	}
 
-	public Fuego(int cargador, String sistemaAccion, float calibreEnMilimetros) {
+	public Fuego(int cargador, String sistemaAccion, float calibreEnMilimetros, String nombre) {
 		super();
+		this.nombre = nombre;
 		this.cargador = cargador;
 		this.sistemaAccion = sistemaAccion;
 		this.calibreEnMilimetros = calibreEnMilimetros;
