@@ -1,6 +1,6 @@
 package es.bullseye;
 
-public class Arma {
+public abstract class Arma {
 
 	private String nombre;
 	private int peso;
