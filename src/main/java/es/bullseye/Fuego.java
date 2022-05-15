@@ -2,31 +2,13 @@ package es.bullseye;
 
 public class Fuego extends Arma implements FuegoInterfaz {
 
-	private int cargador;
-	private String sistemaAccion;
+	//private int cargador;
+	//private String sistemaAccion;
 	private float calibreEnMilimetros;
 	private String nombre;
 
 	// GETTERS Y SETTERS
-	@Override
-	public int getCargador() {
-		return cargador;
-	}
 
-	@Override
-	public void setCargador(int cargador) {
-		this.cargador = cargador;
-	}
-
-	@Override
-	public String getSistemaAccion() {
-		return sistemaAccion;
-	}
-
-	@Override
-	public void setSistemaAccion(String sistemaAccion) {
-		this.sistemaAccion = sistemaAccion;
-	}
 
 	@Override
 	public float getCalibreEnMilimetros() {
@@ -53,11 +35,9 @@ public class Fuego extends Arma implements FuegoInterfaz {
 		super();
 	}
 
-	public Fuego(int cargador, String sistemaAccion, float calibreEnMilimetros, String nombre) {
+	public Fuego( float calibreEnMilimetros, String nombre) {
 		super();
 		this.nombre = nombre;
-		this.cargador = cargador;
-		this.sistemaAccion = sistemaAccion;
 		this.calibreEnMilimetros = calibreEnMilimetros;
 	}
 
