@@ -1,6 +1,6 @@
 package es.bullseye;
 
-public class Blanca extends Arma {
+public class Blanca extends Arma implements BlancaInterfaz {
 
 	private String forma;
 	private String filo;
@@ -23,10 +23,12 @@ public class Blanca extends Arma {
 		this.filo = filo;
 	}
 
+	@Override
 	public float getLongitudEnMilimetros() {
 		return longitudEnMilimetros;
 	}
 
+	@Override
 	public void setLongitudEnMilimetros(float longitudEnMilimetros) {
 		this.longitudEnMilimetros = longitudEnMilimetros;
 	}

@@ -1,6 +1,6 @@
 package es.bullseye;
 
-public class Fuego extends Arma {
+public class Fuego extends Arma implements FuegoInterfaz {
 
 	private int cargador;
 	private String sistemaAccion;
@@ -23,10 +23,12 @@ public class Fuego extends Arma {
 		this.sistemaAccion = sistemaAccion;
 	}
 
+	@Override
 	public float getCalibreEnMilimetros() {
 		return calibreEnMilimetros;
 	}
 
+	@Override
 	public void setCalibreEnMilimetros(float calibreEnMilimetros) {
 		this.calibreEnMilimetros = calibreEnMilimetros;
 	}
