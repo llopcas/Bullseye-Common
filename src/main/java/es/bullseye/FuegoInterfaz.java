@@ -2,8 +2,8 @@ package es.bullseye;
 
 public interface FuegoInterfaz {
 
-	float getCalibreEnMilimetros();
+	public float getCalibreEnMilimetros();
 
-	void setCalibreEnMilimetros(float calibreEnMilimetros);
+	public void setCalibreEnMilimetros(float calibreEnMilimetros);
 
 }
