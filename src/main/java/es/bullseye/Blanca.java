@@ -4,7 +4,7 @@ public class Blanca extends Arma implements BlancaInterfaz {
 
 	private String forma;
 	private String filo;
-	private float longitudEnMilimetros;
+	private double longitudEnMilimetros;
 
 	// GETTERS Y SETTERS
 	public String getForma() {
@@ -24,12 +24,12 @@ public class Blanca extends Arma implements BlancaInterfaz {
 	}
 
 	@Override
-	public float getLongitudEnMilimetros() {
+	public double getLongitudEnMilimetros() {
 		return longitudEnMilimetros;
 	}
 
 	@Override
-	public void setLongitudEnMilimetros(float longitudEnMilimetros) {
+	public void setLongitudEnMilimetros(double longitudEnMilimetros) {
 		this.longitudEnMilimetros = longitudEnMilimetros;
 	}
 
@@ -39,7 +39,7 @@ public class Blanca extends Arma implements BlancaInterfaz {
 		super();
 	}
 
-	public Blanca(String forma, String filo, float longitudEnMilimetros) {
+	public Blanca(String forma, String filo, double longitudEnMilimetros) {
 		super();
 		this.forma = forma;
 		this.filo = filo;
