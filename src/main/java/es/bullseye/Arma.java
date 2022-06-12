@@ -4,6 +4,7 @@ public abstract class Arma {
 
 	private String nombre;
 	private int peso;
+	private long idArma;
 
 	// GETTERS Y SETTERS
 	public String getNombre() {
@@ -20,6 +21,15 @@ public abstract class Arma {
 
 	public void setPeso(int peso) {
 		this.peso = peso;
+	}
+
+	
+	public long getIdArma() {
+		return idArma;
+	}
+
+	public void setIdArma(long idArma) {
+		this.idArma = idArma;
 	}
 
 	// CONSTRUCTORES

@@ -1,10 +1,9 @@
 package es.bullseye;
 
-import java.util.Collection;
-
 public class Deposito {
 
 	private int codigoDeposito;
+	private long idDeposito;
 
 	// GETTERS Y SETTERS
 	public int getCodigoDeposito() {
@@ -15,9 +14,17 @@ public class Deposito {
 		this.codigoDeposito = codigoDeposito;
 	}
 
+	public long getIdDeposito() {
+		return idDeposito;
+	}
+
+	public void setIdDeposito(long idDeposito) {
+		this.idDeposito = idDeposito;
+	}
+
 	// CONSTRUCTORES
 	public Deposito() {
-		
+
 	}
 
 	public Deposito(int codigoDeposito) {

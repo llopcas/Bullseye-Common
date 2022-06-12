@@ -2,8 +2,7 @@ package es.bullseye;
 
 public class Fuego extends Arma implements FuegoInterfaz {
 
-	//private int cargador;
-	//private String sistemaAccion;
+	
 	private float calibreEnMilimetros;
 	private String nombre;
 
