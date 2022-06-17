@@ -5,6 +5,7 @@ public class Fuego extends Arma implements FuegoInterfaz {
 	
 	private double calibreEnMilimetros;
 	private String nombre;
+	private String sistemaAccion;
 
 	// GETTERS Y SETTERS
 
@@ -12,6 +13,14 @@ public class Fuego extends Arma implements FuegoInterfaz {
 	@Override
 	public double getCalibreEnMilimetros() {
 		return calibreEnMilimetros;
+	}
+
+	public String getSistemaAccion() {
+		return sistemaAccion;
+	}
+
+	public void setSistemaAccion(String sistemaAccion) {
+		this.sistemaAccion = sistemaAccion;
 	}
 
 	@Override
@@ -34,10 +43,11 @@ public class Fuego extends Arma implements FuegoInterfaz {
 		super();
 	}
 
-	public Fuego( double calibreEnMilimetros, String nombre) {
+	public Fuego( double calibreEnMilimetros, String nombre, String sistemaAccion) {
 		super();
 		this.nombre = nombre;
 		this.calibreEnMilimetros = calibreEnMilimetros;
+		this.sistemaAccion = sistemaAccion;
 	}
 
 }
