@@ -46,4 +46,6 @@ public class Blanca extends Arma implements BlancaInterfaz {
 		this.longitudEnMilimetros = longitudEnMilimetros;
 	}
 
+
+
 }

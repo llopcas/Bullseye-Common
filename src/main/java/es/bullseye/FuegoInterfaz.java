@@ -8,8 +8,12 @@ public interface FuegoInterfaz {
 
 	public	void setCalibreEnMilimetros(double calibreEnMilimetros);
 
-	public	String getNombre();
+	public	String getSistemaAccion();
 
-	public	void setNombre(String nombre);
+	public	void setSistemaAccion(String sistemaAccion);
+	
+	public int getCargador();
+	
+	public void setCargador(int cargador);
 
 }
