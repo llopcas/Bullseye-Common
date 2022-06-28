@@ -18,7 +18,7 @@ public class Fuego extends Arma implements FuegoInterfaz {
 	}
 
 	@Override
-	public double getCalibreEnMilimetros() {
+	public float getCalibreEnMilimetros() {
 		return calibreEnMilimetros;
 	}
 

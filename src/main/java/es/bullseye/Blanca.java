@@ -24,7 +24,7 @@ public class Blanca extends Arma implements BlancaInterfaz {
 	}
 
 	@Override
-	public double getLongitudEnMilimetros() {
+	public float getLongitudEnMilimetros() {
 		return longitudEnMilimetros;
 	}
 
