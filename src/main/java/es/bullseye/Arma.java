@@ -9,7 +9,7 @@ public abstract class Arma {
 	// GETTERS Y SETTERS
 	public String getNombre() {
 		return nombre;
-	}
+			}
 
 	public void setNombreString(String nombreString) {
 		this.nombre = nombreString;
