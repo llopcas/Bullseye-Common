@@ -2,7 +2,7 @@ package es.bullseye;
 
 public class Fuego extends Arma implements FuegoInterfaz {
 
-	private double calibreEnMilimetros;
+	private float calibreEnMilimetros;
 
 	private String sistemaAccion;
 	private int cargador;
@@ -31,7 +31,7 @@ public class Fuego extends Arma implements FuegoInterfaz {
 	}
 
 	@Override
-	public void setCalibreEnMilimetros(double calibreEnMilimetros) {
+	public void setCalibreEnMilimetros(float calibreEnMilimetros) {
 		this.calibreEnMilimetros = calibreEnMilimetros;
 	}
 
@@ -40,7 +40,7 @@ public class Fuego extends Arma implements FuegoInterfaz {
 		super();
 	}
 
-	public Fuego(double calibreEnMilimetros, String sistemaAccion, int cargador) {
+	public Fuego(float calibreEnMilimetros, String sistemaAccion, int cargador) {
 		super();
 
 		this.calibreEnMilimetros = calibreEnMilimetros;

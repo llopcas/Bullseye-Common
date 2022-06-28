@@ -4,7 +4,7 @@ public interface BlancaInterfaz {
 
 	public double getLongitudEnMilimetros();
 
-	public void setLongitudEnMilimetros(double  longitudEnMilimetros);
+	public void setLongitudEnMilimetros(float  longitudEnMilimetros);
 	
 	public String getFilo();
 	

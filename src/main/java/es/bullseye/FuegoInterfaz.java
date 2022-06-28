@@ -6,7 +6,7 @@ public interface FuegoInterfaz {
 	
 	public	double getCalibreEnMilimetros();
 
-	public	void setCalibreEnMilimetros(double calibreEnMilimetros);
+	public	void setCalibreEnMilimetros(float calibreEnMilimetros);
 
 	public	String getSistemaAccion();
 
