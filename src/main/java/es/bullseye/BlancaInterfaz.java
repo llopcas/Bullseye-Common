@@ -2,7 +2,7 @@ package es.bullseye;
 
 public interface BlancaInterfaz {
 
-	public double getLongitudEnMilimetros();
+	public float getLongitudEnMilimetros();
 
 	public void setLongitudEnMilimetros(float  longitudEnMilimetros);
 	

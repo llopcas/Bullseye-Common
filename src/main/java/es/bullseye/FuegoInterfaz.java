@@ -4,7 +4,7 @@ public interface FuegoInterfaz {
 
 	// GETTERS Y SETTERS
 	
-	public	double getCalibreEnMilimetros();
+	public	float getCalibreEnMilimetros();
 
 	public	void setCalibreEnMilimetros(float calibreEnMilimetros);
 
